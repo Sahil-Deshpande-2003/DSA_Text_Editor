@@ -114,6 +114,14 @@ TrieNode* compress_trie(TrieNode *root){
         }
     }
 
+    /*
+	1. Copy child's data into root'data
+ 	2. Copy child's terminal to root's termminal
+  	3. Copy child's children into root's children
+   	4. Free child
+
+   */
+
     if (childCount == 1){
         for (int i = 0; i < child->index; i++)
         {
