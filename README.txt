@@ -1,5 +1,9 @@
 This project involves the implementation of text editor using compressed tries. 
 It also involves auto complete feature, only for the keywords of some programming languages. 
+C/C++: 47 keywords
+Python: 35 keywords
+Java: 53 keywords
+SQL (Structured Query Language): 51 keywords
 It wil display 3 possible keywords using the given incomplete text and to autocomplete the word, type the number of the word which you want (out of those 3) and press enter
 
 To run this project:
